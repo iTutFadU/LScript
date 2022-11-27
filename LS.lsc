@@ -46,14 +46,6 @@ public convert.toList[in] {
 	return $LS:if[$LS:typeOf[in] == 8, in, $LS:list.new[in]];
 };
 
-public hasError[in] {
-	return $LS:typeOf[in] == 8 && str[in] == error[];
-};
-
-public error[] {
-	return "<ERROR>";
-};
-
 public valueOf[in] {
 	return $LS:if[$LS:typeOf[in] == 7, "\"" + str[in] + "\"", str[in]];
 };
