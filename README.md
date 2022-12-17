@@ -1,2 +1,2 @@
-# LScript.LS
-Standart library for LScript
+# LScript
+LScript compiler, executor and standart library source code
