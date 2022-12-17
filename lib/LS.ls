@@ -1,3 +1,5 @@
+import $LS.Exe;
+
 public console.print[in] {
 	// built-in
 };
